@@ -1,0 +1,7 @@
+# Get handle calibration
+
+---
+float[4] gains
+float[4] offsets
+bool success
+string message

@@ -1,6 +1,8 @@
 # Get door position calibration
 
 ---
-float32[3] duty_cycle # Duty cycle values for CW, ZERO, CCW
+float32 cw		# Duty cycle values for CW, ZERO, CCW
+float32 zero
+float32 ccw
 bool success
 string message

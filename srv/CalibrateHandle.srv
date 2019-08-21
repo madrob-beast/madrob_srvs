@@ -1,6 +1,6 @@
 # Calibrate handle
 
-uint8 mask	# Bitmask to select which load cells should be calibrated
+uint8 samples	# Number of samples to average
 uint8 step	# Calibration step
 float32 force	# Applied force
 ---

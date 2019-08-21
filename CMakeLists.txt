@@ -57,15 +57,12 @@ add_service_files(
   FILES
   CalibrateDoorPosition.srv
   CalibrateHandle.srv
-  GetDoorControllerCalibration.srv
-  GetDoorControllerMode.srv
-  GetDoorPositionCalibration.srv
-  GetHandleCalibration.srv
   SetDoorControllerCalibration.srv
   SetDoorControllerMode.srv
   SetDoorPositionCalibration.srv
   SetHandleCalibration.srv
   SetDoorControllerLUT.srv
+  SetDoorBrake.srv
 )
 
 ## Generate actions in the 'action' folder

@@ -1,7 +1,7 @@
 # Set handle calibration
 
-float32[4] gains
-float32[4] offsets
+float32 gain
+float32 offset
 ---
 bool success
 string message

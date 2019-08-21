@@ -1,0 +1,19 @@
+# Set door brake
+
+# Method
+uint8    METHOD_FREE = 0
+uint8    METHOD_BRAKE = 1
+uint8    METHOD_HANDBRAKE = 2
+uint8    METHOD_SPEED = 3
+uint8    METHOD_ROTOR_LOCK = 4
+
+# Measurement units
+uint8    MU_PERCENT = 0
+uint8    MU_FORCE= 1
+
+uint8 method	# Braking method
+uint8 mu	# Braking setpoint measurement units
+float32 setpoint	# Setpoint
+---
+bool success
+string message

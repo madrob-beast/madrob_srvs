@@ -1,8 +1,8 @@
 # Calibrate handle
 
-uint8 samples	# Number of samples to average
-uint8 step	# Calibration step
-float32 force	# Applied force
+uint8 samples # Number of samples to average
+uint8 step    # Calibration step [0 or 1]
+float32 force # Applied force [Force]
 ---
 bool success
 string message

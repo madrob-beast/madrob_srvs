@@ -1,19 +1,19 @@
 # Set door brake
 
 # Method
-uint8    METHOD_FREE = 0
-uint8    METHOD_BRAKE = 1
-uint8    METHOD_HANDBRAKE = 2
-uint8    METHOD_SPEED = 3
-uint8    METHOD_ROTOR_LOCK = 4
+uint8    METHOD_FREE = 0       # Free 
+uint8    METHOD_BRAKE = 1      # VESC brake
+uint8    METHOD_HANDBRAKE = 2  # VESC handbrake
+uint8    METHOD_SPEED = 3      # Speed = 0 PID controller
+uint8    METHOD_ROTOR_LOCK = 4 # VESC rotor lock
 
 # Measurement units
-uint8    MU_PERCENT = 0
-uint8    MU_FORCE= 1
+uint8    MU_PERCENT = 0 # Setpoints are in % of maximum current
+uint8    MU_FORCE= 1    # Setpoints are in [Force]
 
-uint8 method	# Braking method
-uint8 mu	# Braking setpoint measurement units
-float32 setpoint	# Setpoint
+uint8 method     # Braking method
+uint8 mu         # Braking setpoint measurement units
+float32 setpoint # Setpoint [mu]
 ---
 bool success
 string message

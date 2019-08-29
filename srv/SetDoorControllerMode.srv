@@ -1,8 +1,9 @@
 # Set door controller mode
 
-uint8 DOOR_MODE_DISABLED		= 0
-uint8 DOOR_MODE_LUT		= 1
-uint8 DOOR_MODE_BRAKE	= 2
+uint8   MODE_DISABLED = 0   # No control
+uint8   MODE_LUT = 1        # LUT
+uint8   MODE_BRAKE = 3      # Fixed setpoint
+uint8   MODE_CALIB_KT = 123 # KT calibration (current ramp) - *** WARNING - THE DOOR WILL MOVE ***
 
 uint8 mode
 ---

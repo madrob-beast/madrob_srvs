@@ -1,7 +1,7 @@
 # Set handle calibration
 
-float32 gain
-float32 offset
+float32 gain   # [Force/ADU]
+float32 offset # [Force]
 ---
 bool success
 string message

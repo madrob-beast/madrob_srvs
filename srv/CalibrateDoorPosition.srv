@@ -1,8 +1,8 @@
 # Calibrate door position
 
-uint8 POSITION_ZERO	= 0
-uint8 POSITION_CW	= 1
-uint8 POSITION_CCW	= 2
+uint8 POSITION_ZERO = 0 # The door is in the zero position
+uint8 POSITION_CW   = 1 # The door is in the max CW position
+uint8 POSITION_CCW  = 2 # The door is in the max CCW position
 
 uint8 position
 ---

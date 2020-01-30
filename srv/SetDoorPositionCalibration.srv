@@ -1,8 +1,8 @@
 # Set door position calibration
 
-float32 cw		# Duty cycle values for CW, ZERO, CCW
-float32 zero
-float32 ccw
+float32 cw      # Encoder duty cycle values for max CW
+float32 zero    # Encoder duty cycle values for ZERO
+float32 ccw     # Encoder duty cycle values for max CCW
 ---
 bool success
 string message

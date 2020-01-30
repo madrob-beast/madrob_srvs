@@ -1,6 +1,6 @@
-# Set controller calibration
+# Set controller motor constant
 
-float32 ki	# Motor Ki constant
+float32 kt # Motor Kt constant [Handle ADU / Motor %]
 ---
 bool success
 string message

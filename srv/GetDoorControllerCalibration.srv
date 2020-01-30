@@ -1,6 +1,0 @@
-# Get controller calibration
-
----
-float32 ki	# Motor Ki constant
-bool success
-string message

@@ -1,13 +1,11 @@
 # Set door LUT
 
 # LUT type
-uint8   ANGLE_CW = 0
-uint8   ANGLE_CCW = 1
-uint8   SPEED_CW = 2
-uint8   SPEED_CCW = 3
+uint8   ANGLE_CW = 0  # Position based LUT (use if handle force is < 0)
+uint8   ANGLE_CCW = 1 # Position based LUT (use if handle force is > 0)
 
 uint8   type        # LUT type, values defined above
-float32[181] values
+float32[181] values # Setpoints [Force] or [%], depending on door_mu
 ---
 bool success
 string message

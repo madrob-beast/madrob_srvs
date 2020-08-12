@@ -63,6 +63,8 @@ add_service_files(
   SetHandleCalibration.srv
   SetDoorControllerLUT.srv
   SetDoorBrake.srv
+  LockParameters.srv
+  OverrideLock.srv
 )
 
 ## Generate actions in the 'action' folder

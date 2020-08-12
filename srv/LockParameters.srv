@@ -1,0 +1,20 @@
+# Lock Parameters access
+
+# Command
+uint8  NONE = 0        # Do nothing
+uint8  GET = 1         # Get the value
+uint8  SET = 2         # Set the value
+uint8  SAVE = 3        # Save all the parameters to flash
+uint8  SET_DEFAULT = 4 # Set the default value
+
+uint8   command   # Command
+uint8   index     # Index (for array-type parameters)
+uint8   parameter # Parameter to GET/SET
+float64 value     # Value of the register (for SET command)
+---
+uint8   command   # Command
+uint8   index     # Index (for array-type parameters)
+uint8   parameter # Parameter to GET/SET
+float64 value     # Value of the register (for SET command)
+bool    success   # Success
+string  message   # Success/error message

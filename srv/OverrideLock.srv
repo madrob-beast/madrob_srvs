@@ -1,0 +1,7 @@
+# Override lock
+
+bool override # Override?
+bool latched  # Should be latched?
+---
+bool success
+string message

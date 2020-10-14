@@ -63,7 +63,7 @@ add_service_files(
   SetHandleCalibration.srv
   SetDoorControllerLUT.srv
   SetDoorBrake.srv
-  LockParameters.srv
+  Parameters.srv
   OverrideLock.srv
 )
 
